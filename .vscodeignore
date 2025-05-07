@@ -1,0 +1,7 @@
+code-syntax-showcases/
+*.vsix
+.vscode/
+.git/
+README.md
+CHANGELOG.md
+LICENSE

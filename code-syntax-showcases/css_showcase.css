@@ -1,0 +1,41 @@
+/* CSS Modern Showcase */
+
+:root {
+  --primary: #1e90ff;
+  --gap: 1rem;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #222;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--gap);
+}
+
+.card {
+  padding: 1rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+}

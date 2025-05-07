@@ -1,0 +1,11 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Le Grand Nord - Higher Contrast",
+	"type": "dark",
+	"colors": {
+		// TODO: Define higher contrast colors here
+	},
+	"tokenColors": [
+		// TODO: Define token colors for higher contrast
+	]
+}
