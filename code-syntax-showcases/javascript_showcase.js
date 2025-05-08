@@ -1,19 +1,20 @@
 // JavaScript Showcase
-
 /** JS DOCS comment */
+
+import { LitApp, html, str } from '/_libs/LitApp.js'
 
 class App extends LitApp {
 	
+	constructor() { super() }
+	
 	aboutPage = () => html`
-	<main flow='col top gaps grow'>
-		<h2>${ str('about') }</h2>
-		<div style='font-family: monospace; border: 1px solid; padding: 1em; border-radius: 1rem;'>
-			${this._params && JSON.stringify(this._params)}
-		</div>
-	</main>
+		<main flow='col top gaps grow'>
+			<h2>${ str('about') }</h2>
+			<div>${ this._params && JSON.stringify(this._params) }</div>
+		</main>
 	`
 }
-const tl = `heloo ${this.msg}`
+
 async function fetchData(url) {
 	try {
 		const response = await fetch(url); // `fetch` is a browser/Node API
@@ -28,6 +29,8 @@ async function fetchData(url) {
 		return null;
 	}
 }
+
+const tl = `heloo ${this.msg}`
 
 function greet(name) {
 	return `Hello, ${name}!`;
@@ -66,7 +69,12 @@ let objectLiteral = {
 	key: "value",
 	'string-key': 123,
 	method(){ },
-	arrowFunc: () => {},
+	arrowFunc: () => {
+		outer:
+		for (let i=0; i<11; i++){
+			
+		}
+	},
 }
 
 //--------------------------------------

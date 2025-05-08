@@ -28,6 +28,14 @@
 		"url": "https://github.com/ncodefun/le-grand-nord.git"
 	},
 	"icon": "icon.png",
+	"files": [
+		"themes",
+		"icon.png",
+		"README.md",
+		"CHANGELOG.md",
+		"LICENSE",
+		"screenshots"
+	],
 	"__metadata": {
 		"id": "",
 		"publisherId": "2ee05c01-1e1a-4434-9c5b-b8a92ddddb92",

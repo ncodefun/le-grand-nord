@@ -152,7 +152,7 @@
 			}
 		},	
 		{
-			"name": "Punctuation; storage (let, const, function, class); CSS pseudo ~ JUNIPER",
+			"name": "Punctuation, storage (let, const, function, class); CSS pseudo ~ JUNIPER",
 			"scope": [
 				"storage",
 				"punctuation",
@@ -248,7 +248,7 @@
 			}
 		},
 		{
-			"name": "JS obj.keys, params; HTML attr. names ~ FRINGY FLOWER",
+			"name": "Obj. keys, Func. params, Attr. names, Props ~ FRINGY FLOWER",
 			"scope": [
 				"entity.other.attribute-name",
 				"meta.object-literal.key",
@@ -270,20 +270,11 @@
 			}
 		},
 		{
-			"name": "Accessor (. ?.)",
-			"scope": [
-				
-			],
-			"settings": {
-				"foreground": "#b3e0d1bb",
-			}
-		},
-		{
 			"name": "JS 'new' ~ BAY LEAF",
 			"scope": [
 				"keyword.operator.new",
 				"entity.name.type.instance.jsdoc",
-				"keyword.other.unit",
+				"keyword.other.unit", // css units
 			],
 			"settings": {
 				"foreground": "#83aa8a",
@@ -305,7 +296,7 @@
 			}
 		},	
 		{
-			"name": "Values ~ Feijoa",
+			"name": "Values ~ FEIJOA",
 			"scope": [
 				"string",
 				"constant",
@@ -344,11 +335,8 @@
 			}
 		},
 		{
-			"name": "JS string template: faded quotes (+ style attr…)",
+			"name": "JS string template -> faded quotes",
 			"scope": [
-				// "string.js.taggedTemplate meta.attribute.style.html punctuation.definition.string.begin.html",
-				// "string.js.taggedTemplate meta.attribute.style.html punctuation.definition.string.end.html source.css ",
-				
 				"string.template.js punctuation.definition.string.template ",
 			],
 			"settings": {
@@ -358,7 +346,7 @@
 		},
 		{
 			"name": "JS control flow – MEDIUM GRAY",
-			// looks relatively redish compared with others...
+			// looks relatively redish beside other cool colors...
 			"scope": [
 				"keyword.control",
 				"entity.name.label",
@@ -396,7 +384,7 @@
 		
 
 		{
-			"name": "Strings – ITALIC",
+			"name": "Strings, string templates, func. parameter – ITALIC",
 			"scope": [
 				"string.template",
 				"string",
@@ -407,7 +395,7 @@
 			}
 		},
 		{
-			"name": "String templates – NOT ITALIC",
+			"name": "*Tagged* string templates (lit-html) – NOT ITALIC",
 			"scope": [
 				"string.js.taggedTemplate",
 			],
