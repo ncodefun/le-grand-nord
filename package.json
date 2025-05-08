@@ -1,7 +1,7 @@
 {
 	"name": "le-grand-nord",
 	"displayName": "Le Grand Nord",
-	"description": "A cool minimalist color palette, featuring pastel-like tones and medium contrast for a consistent and calm aesthetic.",
+	"description": "A minimalist color palette, featuring cool, pastel-like tones and medium contrast for a consistent and calm aesthetic.",
 	"version": "0.1.0",
 	"publisher": "ncodefun",
 	"engines": {
@@ -16,11 +16,6 @@
 				"label": "Le Grand Nord",
 				"uiTheme": "vs-dark",
 				"path": "./themes/le-grand-nord.color-theme.json"
-			}
-			,{
-				"label": "Le Grand Nord - Higher Contrast",
-				"uiTheme": "vs-dark",
-				"path": "./themes/le-grand-nord-HC.color-theme.json"
 			}
 		]
 	},

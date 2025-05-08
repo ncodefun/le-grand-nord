@@ -1,4 +1,4 @@
-# Python Syntax Showcase
+# Python Showcase
 
 # Variables and Data Types
 name = "Alice"

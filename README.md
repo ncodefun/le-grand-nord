@@ -1,23 +1,11 @@
 # Le Grand Nord VS Code Theme
 
-![Le Grand Nord Theme Icon](icon.png)
+A minimalist color palette, featuring cool, pastel-like tones and medium contrast for a consistent and calm aesthetic.
 
-A cool minimalist color palette, featuring pastel-like tones and medium contrast for a consistent and calm aesthetic.
+![Le Grand Nord Theme - JAVASCRIPT](screenshots/javascript.png)
 
-## Installation
+![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
 
-1. Download or clone this repository.
-2. Open the folder in VS Code.
-3. Press `F5` to open a new Extension Development Host window with the theme enabled.
-4. Or, package and install the extension using `vsce`.
-
-## Screenshots
-
-![Le Grand Nord Theme Screenshot](screenshot.png)
-
-## Showcases
-
-See the `code-syntax-showcases/` folder for syntax samples in various languages.
 
 ## License
 
