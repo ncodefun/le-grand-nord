@@ -2,7 +2,7 @@
 	"name": "le-grand-nord",
 	"displayName": "Le Grand Nord",
 	"description": "A minimalist color palette, featuring cool, pastel-like tones and medium contrast for a consistent and calm aesthetic.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "ncodefun",
 	"engines": {
 		"vscode": "^1.19.0"
@@ -28,14 +28,6 @@
 		"url": "https://github.com/ncodefun/le-grand-nord.git"
 	},
 	"icon": "icon.png",
-	"files": [
-		"themes",
-		"icon.png",
-		"README.md",
-		"CHANGELOG.md",
-		"LICENSE",
-		"screenshots"
-	],
 	"__metadata": {
 		"id": "",
 		"publisherId": "2ee05c01-1e1a-4434-9c5b-b8a92ddddb92",
