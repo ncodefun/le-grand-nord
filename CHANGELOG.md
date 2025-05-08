@@ -6,3 +6,6 @@
 ## 0.1.1 - 2025-05-08
 - New icon.
 - Description en Français dans le README.
+
+## 0.1.2 - 2025-05-08
+- fixed description to match README.
