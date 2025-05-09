@@ -54,8 +54,8 @@
 		"sideBarSectionHeader.foreground": "#81a8a1",
 		"sideBarTitle.foreground": "#ffffff22",
 		"statusBar.foreground": "#cbfff999",
-		"statusBar.background": "#282d2e",
-		"statusBar.debuggingBackground": "#009d83",
+		"statusBar.background": "#222627",
+		"statusBar.debuggingBackground": "#511f1f",
 		"statusBar.noFolderForeground": "#cbfff999",
 		"statusBar.noFolderBackground": "#222627",
 		"tab.activeBackground": "#2a3232",
@@ -83,85 +83,115 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#ffffff",
+				"foreground": "#EEEEEE",
 			}
 		},
 		{
 			"name": "Base 'white'",
 			"scope": [
 				"variable",
-				"meta.template.expression.js",
-				"string.regexp.js",
-				
-				"string.regexp constant.other.character-class.set.regexp",
-				"string.regexp.js constant.other.character-class.set.regexp constant.other.character-class.regexp",
-				// "string.regexp constant.other.character-class.regexp"
-				// "variable.other.object.js",
-				// "string.template.js variable", 
-				// "string.js.taggedTemplate",
-				// "meta.embedded.block.html",
-				// "meta.var.expr.js variable.other.object.js",
-				// "meta.function-call.ts variable",
-				// "meta.template.expression.ts",
-				// "source.python",
+				"variable.other.object.js",
+				"string.regexp",
+				"string.template.js variable", 
+				"string.js.taggedTemplate",
+				"meta.embedded.block.html",
+				"meta.var.expr.js variable.other.object.js",
+				"meta.function-call.ts variable",
+				"meta.template.expression.ts",
+				"constant.other.character-class.set.regexp",
+				"source.python",
 				"source.python meta.fstring.python",
-				// "meta.function-call.arguments.python",
+				"meta.function-call.arguments.python",
 			],
 			"settings": {
-				"foreground": "#dddddd", // #969198
+				"foreground": "#d7d7d7",
 			}
 		},	
 		{
 			"name": "COMMENT TAGS",
 			"scope": [
 				"punctuation.definition.comment",
+				// "source.css punctuation.definition.comment",
+				// "comment.block.documentation punctuation.definition.comment",
 			],
 			"settings": {
-				"foreground": "#4c6565BB"
+				"foreground": "#3c474b",
 			}
 		},
 		{
 			"name": "COMMENT TEXT",
 			"scope": [
 				"comment",
+				// "comment.line.double-slash",
+				// "comment.block.css",
 			],
 			"settings": {
-				"foreground": "#4c6565"
+				"foreground": "#48575c",
 			}
 		},	
 		{
-			"name": "Storage (let, const, function, class); CSS pseudo ~ JUNIPER",
+			"name": "JSDOCS COMMENTS",
+			"scope": [
+				"comment.block.documentation",
+			],
+			"settings": {
+				"foreground": "#58686e",
+			}
+		},	
+		
+		
+		{
+			"name": "HTML brackets, semi-colon, colon",
+			"scope": [
+				"punctuation.definition.tag" ,
+				"punctuation.definition.entity.css",
+				"punctuation.terminator.statement",
+			],
+			"settings": {
+				"foreground": "#516260",
+			}
+		},	
+		{
+			"name": "Punctuation, storage (let, const, function, class); CSS pseudo ~ JUNIPER",
 			"scope": [
 				"storage",
+				"punctuation",
+				"punctuation.separator",
+				"keyword.control.import",
+				"keyword.control.export",
+				"keyword.control.default",
+				"keyword.control.from",
+				"keyword.control.as",	
+				"meta.brace",
+				"meta.object-literal.key punctuation.definition.string",
+				"meta.structure.dictionary.value support.type.property-name punctuation.definition.string",
+				"punctuation.separator.key-value.html meta.attribute.lang.html meta.tag.structure.div.start.html meta.embedded.block.html markup.fenced_code.block.markdown text.html.markdown",
+				"support.type.property-name.json.comments punctuation",
+				
+				"source.css",
+				"source.css keyword.operator.combinator.css",
+				"source.css meta.property-list.css",
+				"meta.property-list.css",
+				"meta.property-value.css constant punctuation",
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
+				"entity.other.attribute-name.id.css punctuation.definition.entity.css",
+				"entity.other.attribute-name.class.css punctuation.definition.entity.css",
+				"punctuation.definition.string.end.html source.css",
+				"keyword.operator.type.annotation.ts",
 			],
 			"settings": {
 				"foreground": "#6e8e89"
 			}
 		},
 		{
-			"name": "Punctuation",
-			"scope": [
-				"meta.brace",
-				"punctuation",	
-				"entity.other.attribute-name.id.css punctuation.definition.entity.css",
-				"entity.other.attribute-name.class.css punctuation.definition.entity.css",
-				"constant.character.format.placeholder.other.python",
-			],
-			"settings": {
-				"foreground": "#6e8e89CC"
-			}
-		},
-		{
-			"name": "HTML elements, CSS ids and classes; JS punct. accessor ~ SEA NYMPH",
+			"name": "HTML elements, CSS ids and classes selectors; JS punctuation accessor ~ SEA NYMPH",
 			"scope": [
 				"entity.name.tag",
 				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.id.css",
-				"punctuation.accessor",
-				"punctuation.separator.key-value.js",
-				"keyword.operator.type.annotation.ts",
+				"entity.other.attribute-name.id.css",					
+				"source.css entity.name.tag",
+				"punctuation.accessor"
 			],
 			"settings":{
 				"foreground": "#7da9a5",
@@ -170,32 +200,47 @@
 		{
 			"name": "JS builtin ~ GULF STREAM",
 			"scope": [
-				"support.variable.dom",
 				"support.constant",
-				"variable.language",
-				"support.class",
+				"support.constant.json.ts",
+				"support.constant.json.js",
+				"support.constant.math.js",
+				"variable.language.super.js",
+				"variable.language.this",
+				"support.class.console.js",
+				"support.variable.dom.js",
+				"support.class.promise.js",
+				"support.class.builtin.js",	
+				"support.class.builtin.ts",
 				"support.type.primitive.ts"
 			],
 			"settings": {
-				"foreground": "#6db1a9"
+				"foreground": "#75b0a9"
 			}
 		},
 		{
 			"name": "Operators, Math signs ~ MONTE CARLO",
 			"scope": [
-				"keyword.operator",
+				"storage.type.function.arrow",
+				"punctuation.definition.group.regexp",
 				"keyword.control.anchor.regexp",
+				"keyword.operator.ternary",
+				"keyword.operator.logical",
+				"keyword.operator.comparison",
+				"keyword.operator.relational",
+				"keyword.operator.increment",
 			],
 			"settings": {
 				"foreground": "#82cec5"
 			}
 		},
 		{
-			"name": "JS functions ~ MORNING GLORY",
+			"name": "JS functions, classes ~ MORNING GLORY",
 			"scope": [
 				"entity.name.function",
 				"entity.name.function.tagged-template",
 				"meta.function-call",
+				"keyword.operator",
+				"keyword.operator.quantifier.regexp",
 				"source.css support.function",
 			],
 			"settings": {
@@ -205,13 +250,20 @@
 		{
 			"name": "Obj. keys, Func. params, Attr. names, Props ~ FRINGY FLOWER",
 			"scope": [
-				"meta.object-literal.key",
-				"meta.object-literal.key string",
 				"entity.other.attribute-name",
-				"keyword.operator.quantifier.regexp",
-				"support.type.property-name",
-				"meta.function-call.arguments.pythonz",
+				"meta.object-literal.key",
+				"meta.object-literal.key string.quoted.single.js",
+				"meta.object-literal.key string.quoted.double.js",
+				"meta.property-name.css",
+				"support.type.property-name.css",
+				"variable.other.jsdoc",
+				"variable.other.object.property.js",
+				"variable.other.property.js",
+				"variable.parameter",
+				"string support.type.property-name", 
+				"string.template.js variable.other.property",
 				"support.variable.property",
+				"support.variable.property.dom",
 			],
 			"settings": {
 				"foreground": "#b3e0d1",
@@ -221,8 +273,8 @@
 			"name": "JS 'new' ~ BAY LEAF",
 			"scope": [
 				"keyword.operator.new",
+				"entity.name.type.instance.jsdoc",
 				"keyword.other.unit", // css units
-				"entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css", // ::
 			],
 			"settings": {
 				"foreground": "#83aa8a",
@@ -231,9 +283,13 @@
 		{
 			"name": "JS class, @jsdocs ~ MADANG",
 			"scope": [
-				"entity.name.type",
-				"entity.other.inherited-class",
-				"entity.other.attribute-name.pseudo-element.css",
+				"source.js class",
+				"entity.name.type.js",
+				"entity.name.type.class.js",
+				"entity.other.inherited-class.js",
+				"storage.type.class.jsdoc",
+				"punctuation.definition.block.tag.jsdoc",
+				"entity.name.type.ts"
 			],
 			"settings": {
 				"foreground": "#aadeb3"
@@ -244,23 +300,34 @@
 			"scope": [
 				"string",
 				"constant",
+				"meta.property-value.css",
 				"source.css support.constant",
+				"meta.at-rule meta.ratio keyword.operator",
+				"variable.parameter.url.css",
+				"string.js.taggedTemplate source.css",
 			],
 			"settings": {
 				"foreground": "#90D794",
 			}
 		},
 		{
-			"name": "JS String template; CSS vars, @media ~ TEA GREEN (PALE YELLOW-GREEN)",
+			"name": "JS String template; CSS vars, @media ~ TEA GREEN",
 			"scope": [
 				"string.template",
-				"string.regexp",
-				"variable.css",
-				"variable.scss",
+				"string.template.js punctuation.definition.string.template",
+				"string.regexp punctuation.definition.string",
+				"string.regexp.js keyword.other",
+				"constant.other.character-class.regexp",
 				"constant.other.character-class.range.regexp",
-				"punctuation.definition.keyword",
-				"source.css keyword.control",
+				"keyword.control.at-rule",
+				"keyword.control.at-rule punctuation",
+				"meta.at-rule keyword.operator.logical",
+				
+				"source.css variable",
+				"meta.at-rule.media.header.css",
+				"meta.at-rule.media.header.css support.constant",
 				"entity.other.keyframe-offset.percentage.css",
+				"punctuation.definition.keyword.css",
 			],
 			"settings": {
 				"foreground": "#c6eab6", 
@@ -290,6 +357,8 @@
 				"foreground": "#7d8281",
 			}
 		},
+		
+		
 		{
 			"name": "CSS !important – MUTED PINK",
 			"scope": [
@@ -300,37 +369,41 @@
 			}
 		},	
 		{
-			"name": "JS debugger, delete, void, regex negation (^) – PALE PINK",
+			"name": "JS debugger, delete, void – PALE PINK",
 			"scope": [
 				"keyword.other.debugger",
 				"keyword.operator.negation",
 				"keyword.operator.expression.delete",
 				"keyword.operator.expression.void.js"
+
 			],
 			"settings": {
 				"foreground": "#ceb0d3"
 			}
 		},
+		
+
 		{
-			"name": "Strings, string templates, func. parameter, :pseudo-class – ITALIC",
+			"name": "Strings, string templates, func. parameter – ITALIC",
 			"scope": [
-				"string",
 				"string.template",
+				"string",
 				"variable.parameter",
-				"entity.other.attribute-name.pseudo-class.css",
 			],
 			"settings": {
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"name": "TAGGED string templates (lit-html) – NOT ITALIC",
+			"name": "*Tagged* string templates (lit-html) – NOT ITALIC",
 			"scope": [
 				"string.js.taggedTemplate",
 			],
 			"settings": {
 				"fontStyle": ""
 			}
-		}
+		},
+		
+		
 	]
 }

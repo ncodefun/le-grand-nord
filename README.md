@@ -9,6 +9,15 @@
 ![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
 
 
+If you want a better contrast, just add this to your user settings json:
+
+```json
+	"workbench.colorCustomizations": {
+		"editor.background": "#1d2121",
+	}
+```
+
+
 ## License
 
 [MIT](LICENSE)

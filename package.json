@@ -1,8 +1,8 @@
 {
 	"name": "le-grand-nord",
 	"displayName": "Le Grand Nord",
-	"description": "A minimalist color palette, featuring cool tones and medium contrast for a consistent and calm aesthetic.",
-	"version": "0.1.2",
+	"description": "A minimalist color palette, featuring cool tones and medium contrast for a consistent and calm aesthetic. | Une palette de couleur minimaliste aux tons froids, avec un contraste moyen pour une esthétique consistente et calme.",
+	"version": "0.2.0",
 	"publisher": "ncodefun",
 	"engines": {
 		"vscode": "^1.19.0"

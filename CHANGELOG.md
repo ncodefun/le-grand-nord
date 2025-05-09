@@ -9,3 +9,9 @@
 
 ## 0.1.2 - 2025-05-08
 - fixed description to match README.
+
+## 0.2.0 - 2025-05-08
+Made a few tweaks, including:
+- comments are now more visible and they all use the same color.
+- import / export is now gray, like control flow (if / else etc.).
+- Simplified the scopes.
