@@ -1,0 +1,36 @@
+/* CSS Showcase */
+
+:root {
+  --gap: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #3f4b46;
+  color: #a9ebdb;
+}
+
+.grid:not(:disabled)::after {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--gap);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) and (min-aspect-ratio: 1/1) {
+  body {
+    padding: 1rem;
+  }
+}
+@keyframes spin {
+  0% {
+    color: palegreen;
+  }
+  100% {
+    
+  }
+}
