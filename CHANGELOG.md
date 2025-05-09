@@ -15,3 +15,6 @@ Made a few tweaks, including:
 - comments are now more visible and they all use the same color.
 - import / export is now gray, like control flow (if / else etc.).
 - Simplified the scopes.
+
+## 0.2.1 - 2025-05-08
+- added sidebar border, changed statusbar colors, incl. when debugging.
