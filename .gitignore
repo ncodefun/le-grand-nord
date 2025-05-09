@@ -5,4 +5,4 @@ node_modules/
 *.log
 .env
 **/*syntax*/
-code-syntax-showcases/
+z
