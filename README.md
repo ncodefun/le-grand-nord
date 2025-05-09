@@ -8,16 +8,18 @@
 
 ![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
 
+Tags: #nord #flow #concentration #zen #beautiful
+
 ---
 
 ## More contrast
 
-If you want a better contrast, just add this to your user settings json:
+If you want a better contrast, just add this to your user settings (json):
 
 ```json
-	"workbench.colorCustomizations": {
-		"editor.background": "#1d2121",
-	}
+"workbench.colorCustomizations": {
+	"editor.background": "#1d2121",
+}
 ```
 
 Here's what it looks like:
@@ -25,13 +27,13 @@ Here's what it looks like:
 ![Le Grand Nord Theme - JAVASCRIPT (Deep BG)](screenshots/javascript-deep-bg.png)
 
 
-## 
 
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue.
 
-If you enjoy using this theme, please consider leaving a rating in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ncodefun.le-grand-nord). Your feedback is greatly appreciated!
+If you enjoy using this theme, please consider leaving a rating in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ncodefun.le-grand-nord). Your feedback is much appreciated!
+
 
 ## License
 

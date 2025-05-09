@@ -11,7 +11,6 @@ class App extends LitApp {
 		</main>
 	`
 }
-customElements.define('my-app', App);
 
 async function fetchData(url) {
 	try {
@@ -28,9 +27,6 @@ async function fetchData(url) {
 	}
 }
 
-
-
-const tl = `heloo ${this.msg}`
 function greet(name) {
 	return `Hello, ${name}!`;
 }
@@ -39,5 +35,12 @@ function sumNumbers(...numbers) {
 	return numbers.reduce((acc, curr) => acc + curr, 0);
 }
 
+customElements.define('my-app', App);
 
+
+// ----------------------------------------------------------------
+sumNumbers();
+arrayLiteral;
+greet('you')
+const msg = `heloo ${this.msg}`
 fetchData()

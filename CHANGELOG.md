@@ -18,3 +18,11 @@ Made a few tweaks, including:
 
 ## 0.2.1 - 2025-05-08
 - added sidebar border, changed statusbar colors, incl. when debugging.
+
+## 0.2.2 - 2025-05-09
+Modified README:
+- Screenshot preview with darker background.
+- Message for contributions, rating.
+
+## 0.2.3 - 2025-05-09
+- More complete coloring of UI elements.
