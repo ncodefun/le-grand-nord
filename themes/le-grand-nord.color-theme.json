@@ -113,12 +113,13 @@
 	
 	"tokenColors": [
 		{
+			"name": "LIGHT – Default color",
 			"settings": {
 				"foreground": "#eee",
 			}
 		},
 		{
-			"name": "Base 'white'",
+			"name": "COTTON – Base color",
 			"scope": [
 				"variable",
 				"meta.template.expression.js",
@@ -129,11 +130,11 @@
 				"meta.function-call.arguments.python",
 			],
 			"settings": {
-				"foreground": "#dddddd", // #969198
+				"foreground": "#dddddd",
 			}
 		},	
 		{
-			"name": "COMMENT TAGS",
+			"name": "GHOSTLY – Comment tags",
 			"scope": [
 				"punctuation.definition.comment",
 			],
@@ -142,7 +143,7 @@
 			}
 		},
 		{
-			"name": "COMMENT TEXT",
+			"name": "GHOST – Comments",
 			"scope": [
 				"comment",
 			],
@@ -151,7 +152,7 @@
 			}
 		},	
 		{
-			"name": "Storage (let, const, function, class); CSS pseudo ~ JUNIPER",
+			"name": "CLOUD – Storage", /* (let, const, function, class); CSS pseudo */
 			"scope": [
 				"storage",
 				"entity.other.attribute-name.pseudo-class.css",
@@ -162,7 +163,7 @@
 			}
 		},
 		{
-			"name": "Punctuation",
+			"name": "MIST – Punctuation", /* (CLOUD faded) */
 			"scope": [
 				"meta.brace",
 				"punctuation",	
@@ -175,7 +176,7 @@
 			}
 		},
 		{
-			"name": "HTML elements, CSS ids and classes; JS punct. accessor ~ SEA NYMPH",
+			"name": "RAINSTORM – Elements", /* punct. accessor + CSS ids and classes" */
 			"scope": [
 				"entity.name.tag",
 				"entity.other.attribute-name.class.css",
@@ -189,7 +190,7 @@
 			}
 		},
 		{
-			"name": "JS builtin ~ GULF STREAM",
+			"name": "SEA – Primitives",
 			"scope": [
 				"support.variable.dom",
 				"support.constant",
@@ -202,7 +203,7 @@
 			}
 		},
 		{
-			"name": "Operators, Math signs ~ MONTE CARLO",
+			"name": "DEEPSKY – Operators, Math signs",
 			"scope": [
 				"keyword.operator",
 				"keyword.control.anchor.regexp",
@@ -212,7 +213,7 @@
 			}
 		},
 		{
-			"name": "JS functions ~ MORNING GLORY",
+			"name": "SKY – JS functions",
 			"scope": [
 				"entity.name.function",
 				"entity.name.function.tagged-template",
@@ -224,7 +225,7 @@
 			}
 		},
 		{
-			"name": "Obj. keys, Func. params, Attr. names, Props ~ FRINGY FLOWER",
+			"name": "ICE – Obj. keys, Func. params, Attr. names, Props",
 			"scope": [
 				"meta.object-literal.key",
 				"meta.object-literal.key string",
@@ -240,7 +241,7 @@
 			}
 		},
 		{
-			"name": "JS 'new' ~ BAY LEAF",
+			"name": "FOREST – JS 'new'; CSS units",
 			"scope": [
 				"keyword.operator.new",
 				"keyword.other.unit", // css units
@@ -251,7 +252,7 @@
 			}
 		},		
 		{
-			"name": "JS class, @jsdocs ~ MADANG",
+			"name": "MINT – JS class, @jsdocs",
 			"scope": [
 				"entity.name.type",
 				"entity.other.inherited-class",
@@ -260,9 +261,9 @@
 			"settings": {
 				"foreground": "#aadeb3"
 			}
-		},	
+		},
 		{
-			"name": "Values ~ FEIJOA",
+			"name": "SPROUT – All values (string, constant)",
 			"scope": [
 				"string",
 				"constant",
@@ -273,7 +274,7 @@
 			}
 		},
 		{
-			"name": "JS String template; CSS vars, @media ~ TEA GREEN (PALE YELLOW-GREEN)",
+			"name": "HALO | ITALIC – JS Str template, RegExp; CSS vars, @media",
 			"scope": [
 				"string.template",
 				"string.regexp",
@@ -290,7 +291,7 @@
 			}
 		},
 		{
-			"name": "JS string template -> faded quotes",
+			"name": "HALO muted – JS string template -> faded quotes",
 			"scope": [
 				"string.template.js punctuation.definition.string.template ",
 			],
@@ -300,8 +301,7 @@
 			}
 		},
 		{
-			"name": "JS control flow – MEDIUM GRAY",
-			// looks relatively redish beside other cool colors...
+			"name": "STONE – JS control flow",
 			"scope": [
 				"keyword.control",
 				"entity.name.label",
@@ -313,7 +313,7 @@
 			}
 		},
 		{
-			"name": "CSS !important – MUTED PINK",
+			"name": "PLUM – CSS !important",
 			"scope": [
 				"keyword.other.important.css",
 			],
@@ -322,7 +322,7 @@
 			}
 		},	
 		{
-			"name": "JS debugger, delete, void, regex negation (^) – PALE PINK",
+			"name": "ROSE – JS debugger, delete, void, regex negation (^)",
 			"scope": [
 				"keyword.other.debugger",
 				"keyword.operator.negation",
@@ -334,7 +334,7 @@
 			}
 		},
 		{
-			"name": "Strings, string templates, func. parameter, :pseudo-class – ITALIC",
+			"name": "ITALIC – Strings, string templates, func. parameter, :pseudo-class",
 			"scope": [
 				"string",
 				"string.template",
@@ -346,7 +346,7 @@
 			}
 		},
 		{
-			"name": "TAGGED string templates (lit-html) – NOT ITALIC",
+			"name": "NOT ITALIC – TAGGED string templates (lit-html)",
 			"scope": [
 				"string.js.taggedTemplate",
 			],
