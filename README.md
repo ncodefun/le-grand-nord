@@ -29,13 +29,13 @@ If you want a better contrast, just add this to your user settings (json):
 
 Here's what it looks like:
 
-**Javascript**
+**Darker BG**
 ![Le Grand Nord Theme - JAVASCRIPT (Deep BG)](screenshots/darker-bg.png)
 
-**HTML / CSS**
+**HTML / CSS – Darker BG**
 ![Le Grand Nord Theme - HTML / CSS](screenshots/darker-html-css.png)
 
-**Python**
+**Python – Darker BG**
 ![Le Grand Nord Theme - PYTHON](screenshots/darker-python.png)
 
 
