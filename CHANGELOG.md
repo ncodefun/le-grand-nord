@@ -29,3 +29,7 @@ Modified README:
 
 ## 0.2.4 - 2025-05-09
 - Even more proper theming for UI elements: widget icons and text, activityBar.
+
+## 0.2.5 - 2025-05-09
+- Adjusted gitDecoration colors for explorer files.
+- Dark bg for stickyScroll for better contrast against tabs.
