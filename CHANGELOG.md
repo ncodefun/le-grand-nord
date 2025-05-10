@@ -33,3 +33,7 @@ Modified README:
 ## 0.2.5 - 2025-05-09
 - Adjusted gitDecoration colors for explorer files.
 - Dark bg for stickyScroll for better contrast against tabs.
+
+## 0.2.6 - 2025-05-10
+- Updated screenshots, added python.
+- Theme: python fixes.

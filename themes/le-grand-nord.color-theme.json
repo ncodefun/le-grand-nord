@@ -126,6 +126,7 @@
 				"string.regexp constant.other.character-class.set.regexp",
 				"string.regexp.js constant.other.character-class.set.regexp constant.other.character-class.regexp",
 				"source.python meta.fstring.python",
+				"meta.function-call.arguments.python",
 			],
 			"settings": {
 				"foreground": "#dddddd", // #969198
@@ -232,6 +233,7 @@
 				"support.type.property-name",
 				"meta.function-call.arguments.pythonz",
 				"support.variable.property",
+				"meta.attribute.python",
 			],
 			"settings": {
 				"foreground": "#b3e0d1",

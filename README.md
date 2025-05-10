@@ -4,11 +4,17 @@
 
 [FR] Une palette de couleur minimaliste aux tons froids avec un contraste moyen, pour une esthétique consistente et calme.
 
+## Javascript
 ![Le Grand Nord Theme - JAVASCRIPT](screenshots/javascript.png)
 
+## HTML / CSS
 ![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
 
-Tags: #nord #flow #concentration #zen #beautiful
+## Python
+![Le Grand Nord Theme - PYTHON](screenshots/python.png)
+
+
+Tags: #nord #flow #concentration #focus #zen #simple #beautiful
 
 ---
 
@@ -16,21 +22,24 @@ Tags: #nord #flow #concentration #zen #beautiful
 
 If you want a better contrast, just add this to your user settings (json):
 
-```json
+```jsonc
 "workbench.colorCustomizations": {
-	"editor.background": "#1d2121",
+	// darker:
+	"editor.background": "#212525",
+	// darkest:
+	// "editor.background": "#1d2121",
 }
 ```
 
 Here's what it looks like:
 
-![Le Grand Nord Theme - JAVASCRIPT (Deep BG)](screenshots/javascript-deep-bg.png)
+![Le Grand Nord Theme - JAVASCRIPT (Deep BG)](screenshots/darker-bg.png)
 
 
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions or improvements, feel free to open an issue.
+Contributions are welcome! If you have suggestions for improvements, feel free to open an issue.
 
 If you enjoy using this theme, please consider leaving a rating in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ncodefun.le-grand-nord). Your feedback is much appreciated!
 
