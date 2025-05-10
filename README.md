@@ -10,9 +10,8 @@
 **HTML / CSS**
 ![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
 
-Tags: #nord #flow #concentration #focus #zen #simple #beautiful
+**Tags**: *#nord #flow #concentration #focus #zen #simple #beautiful*
 
----
 
 ## More contrast
 
