@@ -26,3 +26,6 @@ Modified README:
 
 ## 0.2.3 - 2025-05-09
 - More complete coloring of UI elements.
+
+## 0.2.4 - 2025-05-09
+- Even more proper theming for UI elements: widget icons and text, activityBar.
