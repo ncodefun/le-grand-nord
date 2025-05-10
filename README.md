@@ -1,18 +1,14 @@
-# Le Grand Nord VS Code Theme
+# Le Grand Nord – VS Code Theme
 
 [EN] A minimalist color palette, featuring cool tones and medium contrast for a consistent and calm aesthetic.
 
 [FR] Une palette de couleur minimaliste aux tons froids avec un contraste moyen, pour une esthétique consistente et calme.
 
-## Javascript
+**Javascript**
 ![Le Grand Nord Theme - JAVASCRIPT](screenshots/javascript.png)
 
-## HTML / CSS
+**HTML / CSS**
 ![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
-
-## Python
-![Le Grand Nord Theme - PYTHON](screenshots/python.png)
-
 
 Tags: #nord #flow #concentration #focus #zen #simple #beautiful
 
@@ -33,8 +29,14 @@ If you want a better contrast, just add this to your user settings (json):
 
 Here's what it looks like:
 
+**Javascript**
 ![Le Grand Nord Theme - JAVASCRIPT (Deep BG)](screenshots/darker-bg.png)
 
+**HTML / CSS**
+![Le Grand Nord Theme - HTML / CSS](screenshots/darker-html-css.png)
+
+**Python**
+![Le Grand Nord Theme - PYTHON](screenshots/darker-python.png)
 
 
 ## Contributing
