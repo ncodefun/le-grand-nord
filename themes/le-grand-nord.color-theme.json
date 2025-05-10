@@ -21,14 +21,19 @@
 		// "panel.background": "#222627",
 		// "sideBarSectionHeader.background": "#222627",
 		
+		"editorWidget.foreground": "#6E8E89",
+		"icon.foreground": "#6E8E89",
 		"statusBar.background": "#262b2b",
+		"statusBar.debuggingBackground": "#2c5131",
 		"tab.inactiveBackground": "#282e2e",
 		"tab.activeBackground": "#293535",
 		"tab.unfocusedHoverBackground": "#293535",
 		"editorStickyScrollHover.background": "#293535",
-		"statusBar.debuggingBackground": "#2c5131",
-		
 		"titleBar.activeForeground": "#cbfff9AA",
+		
+		"activityBar.foreground": "#6E8E89",
+		"activityBar.inactiveForeground": "#6E8E89aa",
+		"activityBar.activeBorder": "#6E8E89",
 		"activityBarBadge.background": "#9cdc83",
 		"activityBarBadge.foreground": "#000",
 		"badge.background": "#9cdc83",
@@ -107,7 +112,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#ffffff",
+				"foreground": "#eee",
 			}
 		},
 		{
