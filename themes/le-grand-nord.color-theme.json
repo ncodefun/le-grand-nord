@@ -201,6 +201,7 @@
 				"punctuation.accessor",
 				"punctuation.separator.key-value.js",
 				"keyword.operator.type.annotation.ts",
+				"source.css",
 			],
 			"settings":{
 				"foreground": "#7da9a5",

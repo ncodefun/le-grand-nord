@@ -52,3 +52,6 @@ Modified README:
 
 ## 1.1.0 - 2025-05-11
 - Fix: params, defaultLibrary (using semantic tokens in place of a deprecated js/ts MS extension I had for grammar tokens...).
+
+## 1.1.1 - 2025-05-11
+- Fix: workaround to highlight nested CSS (not properly handled by vs code).
