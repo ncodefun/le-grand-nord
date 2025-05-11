@@ -111,6 +111,23 @@
 		"tab.border": "#6db1a922",	
 	},
 	
+	"semanticHighlighting": true,
+	
+	"semanticTokenColors": {
+		"property" : "#B3E0D1",
+		"variable.defaultLibrary": "#6DB1A9",
+		// "variable.defaultLibrary": "#9b8d8d",
+		
+		"parameter": { 
+			"foreground": "#B3E0D1", 
+			"italic": false 
+		},			
+		"parameter.declaration": { 
+			"foreground": "#B3E0D1", 
+			"italic": true 
+		},	
+	},
+	
 	"tokenColors": [
 		{
 			"name": "LIGHT – Default color",
@@ -157,7 +174,6 @@
 			"scope": [
 				"storage",
 				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css",
 			],
 			"settings": {
 				"foreground": "#6e8e89"
@@ -197,7 +213,7 @@
 				"support.constant",
 				"variable.language",
 				"support.class",
-				"support.type.primitive.ts"
+				"support.type.primitive.ts",
 			],
 			"settings": {
 				"foreground": "#6db1a9"
@@ -237,6 +253,8 @@
 				"meta.function-call.arguments.pythonz",
 				"support.variable.property",
 				"meta.attribute.python",
+				"variable.parameter",
+				// "meta.function.parameters.python"
 			],
 			"settings": {
 				"foreground": "#b3e0d1",
@@ -264,6 +282,17 @@
 				"foreground": "#aadeb3"
 			}
 		},
+		
+		{
+			"name": "hot grey | redish",
+			"scope": [
+			],
+			"settings": {
+				"foreground": "#9b8d8d",
+				"foreground": "#7d8281"
+			}
+		},
+		
 		{
 			"name": "SPROUT – All values (string, constant)",
 			"scope": [

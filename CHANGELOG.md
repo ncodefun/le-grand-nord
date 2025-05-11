@@ -49,3 +49,6 @@ Modified README:
 
 ## 1.0.2 - 2025-05-11
 - Fix: HTML text was green, now white.
+
+## 1.1.0 - 2025-05-11
+- Fix: params, defaultLibrary (using semantic tokens in place of a deprecated js/ts MS extension I had for grammar tokens...).
