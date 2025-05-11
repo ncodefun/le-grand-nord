@@ -37,7 +37,28 @@ function sumNumbers(...numbers) {
 }
 
 customElements.define('my-app', App);
+JSON.stringify();
+Math.floor()
+console.log()
+window.document.documentElement
 
+let o = { 
+	typo: String,
+	x: "yes"
+}
+
+let objectLiteral = {
+	key: "value",
+	'string-key': 123,
+	method(){ },
+	arrowFunc: () => {
+		outer:
+		for (let i=0; i<11; i++){
+			
+		}
+	},
+}
+objectLiteral;
 
 // ----------------------------------------------------------------
 sumNumbers();
