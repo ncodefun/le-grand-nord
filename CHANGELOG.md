@@ -55,3 +55,7 @@ Modified README:
 
 ## 1.1.1 - 2025-05-11
 - Fix: workaround to highlight nested CSS (not properly handled by vs code).
+
+## 1.2.0 - 2025-05-11
+- Changed: params color whiter, less confused with props, keys etc.
+- Changed: custom props also colored like other props, keys etc (light blue).

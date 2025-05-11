@@ -255,7 +255,7 @@
 				"support.variable.property",
 				"meta.attribute.python",
 				"variable.parameter",
-				// "meta.function.parameters.python"
+				"variable.other.property.js", // this._prop
 			],
 			"settings": {
 				"foreground": "#b3e0d1",
@@ -283,17 +283,6 @@
 				"foreground": "#aadeb3"
 			}
 		},
-		
-		{
-			"name": "hot grey | redish",
-			"scope": [
-			],
-			"settings": {
-				"foreground": "#9b8d8d",
-				"foreground": "#7d8281"
-			}
-		},
-		
 		{
 			"name": "SPROUT – All values (string, constant)",
 			"scope": [
