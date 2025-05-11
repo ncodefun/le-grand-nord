@@ -17,13 +17,6 @@ Une palette de couleurs minimaliste aux tons froids avec un contraste moyen, pou
 **Tags**: *#nord #flow #concentration #focus #zen #simple #beautiful*
 
 
-### Palette de couleurs
-
-![Le Grand Nord Theme - color palette](screenshots/named-color-palette.png)
-
-![Le Grand Nord Theme - color palette](screenshots/named-color-palette--text.png)
-
-
 ## Plus de contraste
 
 Pour obtenir un meilleur contraste, ajoutez ceci dans vos `user settings (JSON)` :
@@ -49,6 +42,11 @@ Pour obtenir un meilleur contraste, ajoutez ceci dans vos `user settings (JSON)`
 ### JSON
 ![Le Grand Nord Theme w/ Darker BG - JAVASCRIPT](screenshots/darker-bg.png)
 
+## Palette de couleurs
+
+![Le Grand Nord Theme - color palette](screenshots/named-color-palette.png)
+
+![Le Grand Nord Theme - color palette](screenshots/named-color-palette--text.png)
 
 ## Contribuer
 
