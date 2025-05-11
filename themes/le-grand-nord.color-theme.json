@@ -176,7 +176,7 @@
 			}
 		},
 		{
-			"name": "RAINSTORM – Elements", /* punct. accessor + CSS ids and classes" */
+			"name": "RAIN – Elements", /* punct. accessor + CSS ids and classes" */
 			"scope": [
 				"entity.name.tag",
 				"entity.other.attribute-name.class.css",
@@ -219,6 +219,7 @@
 				"entity.name.function.tagged-template",
 				"meta.function-call",
 				"source.css support.function",
+				"string.js.taggedTemplate punctuation.definition.string.template" // html``
 			],
 			"settings": {
 				"foreground": "#95dcd4",
@@ -291,9 +292,9 @@
 			}
 		},
 		{
-			"name": "HALO muted – JS string template -> faded quotes",
+			"name": "HALO faded – JS string template -> faded quotes",
 			"scope": [
-				"string.template.js punctuation.definition.string.template ",
+				"string.template.js punctuation.definition.string.template",
 			],
 			"settings": {
 				"foreground": "#c6eab6AA",
