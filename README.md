@@ -1,48 +1,55 @@
-# Le Grand Nord – VS Code Theme
+# Le Grand Nord – A Dark VS Code Theme
 
-[EN] A minimalist color palette, featuring cool tones and medium contrast for a consistent and calm aesthetic.
+### [👉 Français](README_fr.md)
 
-[FR] Une palette de couleur minimaliste aux tons froids avec un contraste moyen, pour une esthétique consistente et calme.
+A minimalist color palette featuring cool tones and medium contrast for a calm and consistent aesthetic.
 
-**Javascript**
+
+## Preview
+
+### Javascript
 ![Le Grand Nord Theme - JAVASCRIPT](screenshots/javascript.png)
 
-**HTML / CSS**
+### HTML / CSS
 ![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
 
 **Tags**: *#nord #flow #concentration #focus #zen #simple #beautiful*
 
 
+### Color palette
+
+![Le Grand Nord Theme - color palette](screenshots/named-color-palette.png)
+
+![Le Grand Nord Theme - color palette](screenshots/named-color-palette--text.png)
+
+
 ## More contrast
 
-If you want a better contrast, just add this to your user settings (json):
+If you want better contrast, just add this to your user settings (JSON):
 
 ```jsonc
 "workbench.colorCustomizations": {
 	// darker:
 	"editor.background": "#212525",
-	// darkest:
+	// even darker:
 	// "editor.background": "#1d2121",
 }
 ```
 
-Here's what it looks like:
+## Preview with a darker background
 
-**Darker BG**
-![Le Grand Nord Theme - JAVASCRIPT (Deep BG)](screenshots/darker-bg.png)
+### HTML / CSS
+![Le Grand Nord Theme w/ Darker BG - HTML / CSS](screenshots/darker-html-css.png)
 
-**HTML / CSS – Darker BG**
-![Le Grand Nord Theme - HTML / CSS](screenshots/darker-html-css.png)
-
-**Python – Darker BG**
-![Le Grand Nord Theme - PYTHON](screenshots/darker-python.png)
+### Python
+![Le Grand Nord Theme w/ Darker BG - PYTHON](screenshots/darker-python.png)
 
 
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements, feel free to open an issue.
 
-If you enjoy using this theme, please consider leaving a rating in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ncodefun.le-grand-nord). Your feedback is much appreciated!
+If you enjoy using this theme, please consider leaving a rating on the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ncodefun.le-grand-nord). Your feedback is greatly appreciated! 💖
 
 
 ## License

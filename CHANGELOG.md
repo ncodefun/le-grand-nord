@@ -37,3 +37,9 @@ Modified README:
 ## 0.2.6 - 2025-05-10
 - Updated screenshots, added python.
 - Theme: python fixes.
+
+## 1.0.0 - 2025-05-10
+- Fixed screenshots mistakenly using the darker bg variation.
+- Renamed colors with the new color palette naming scheme.
+- Added named color palette images to README.
+- Added French README.
