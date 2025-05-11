@@ -116,16 +116,14 @@
 	"semanticTokenColors": {
 		"property" : "#B3E0D1",
 		"variable.defaultLibrary": "#6DB1A9",
-		// "variable.defaultLibrary": "#9b8d8d",
-		
 		"parameter": { 
-			"foreground": "#B3E0D1", 
-			"italic": false 
+			"foreground": "#d3dfdc", 
+			"italic": true 
 		},			
 		"parameter.declaration": { 
-			"foreground": "#B3E0D1", 
+			"foreground": "#d3dfdc", 
 			"italic": true 
-		},	
+		},
 	},
 	
 	"tokenColors": [
@@ -256,6 +254,7 @@
 				"meta.attribute.python",
 				"variable.parameter",
 				"variable.other.property.js", // this._prop
+				"variable.other.object.property",
 			],
 			"settings": {
 				"foreground": "#b3e0d1",
