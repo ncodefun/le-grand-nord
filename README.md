@@ -37,11 +37,13 @@ If you want better contrast, just add this to your user settings (JSON):
 ### Python
 ![Le Grand Nord Theme w/ Darker BG - PYTHON](screenshots/darker-python.png)
 
+
 ## Color palette
 
 ![Le Grand Nord Theme - color palette](screenshots/named-color-palette.png)
 
 ![Le Grand Nord Theme - color palette](screenshots/named-color-palette--text.png)
+
 
 ## Contributing
 

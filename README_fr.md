@@ -42,11 +42,13 @@ Pour obtenir un meilleur contraste, ajoutez ceci dans vos `user settings (JSON)`
 ### JSON
 ![Le Grand Nord Theme w/ Darker BG - JAVASCRIPT](screenshots/darker-bg.png)
 
+
 ## Palette de couleurs
 
 ![Le Grand Nord Theme - color palette](screenshots/named-color-palette.png)
 
 ![Le Grand Nord Theme - color palette](screenshots/named-color-palette--text.png)
+
 
 ## Contribuer
 
