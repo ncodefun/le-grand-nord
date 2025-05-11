@@ -8,6 +8,7 @@ class App extends LitApp {
 		<main flow='col top gaps grow'>
 			<h2 class='strong'>${ str('about') }</h2>
 			<div>${ this._params && JSON.stringify(this._params) }</div>
+			hello
 		</main>
 	`
 }

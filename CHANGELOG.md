@@ -43,3 +43,9 @@ Modified README:
 - Renamed colors with the new color palette naming scheme.
 - Added named color palette images to README.
 - Added French README.
+
+## 1.0.1 - 2025-05-11
+- Brighter backticks for tagged template (html``).
+
+## 1.0.2 - 2025-05-11
+- Fix: HTML text was green, now white.
