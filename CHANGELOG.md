@@ -62,4 +62,7 @@ Modified README:
 
 ## 1.2.2 - 2025-05-11
 - Add: value color to grid-area name.
-- Add: apply --var color to var(--prop)
+- Add: apply --var color to var(--prop).
+
+## 1.2.3 - 2025-05-12
+- Add: colored property (this._prop) in tagged template.

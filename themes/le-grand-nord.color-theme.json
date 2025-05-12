@@ -242,7 +242,7 @@
 			}
 		},
 		{
-			"name": "ICE – Obj. keys, Func. params, Attr. names, Props",
+			"name": "ICE – Props, obj. keys, Func. params, Attr. names",
 			"scope": [
 				"meta.object-literal.key",
 				"meta.object-literal.key string",
@@ -253,8 +253,8 @@
 				"support.variable.property",
 				"meta.attribute.python",
 				"variable.parameter",
-				"variable.other.property.js", // this._prop
 				"variable.other.object.property",
+				"variable.other.property", // this._prop
 			],
 			"settings": {
 				"foreground": "#b3e0d1",
