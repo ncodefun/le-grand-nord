@@ -288,7 +288,7 @@
 				"string",
 				"constant",
 				"source.css support.constant",
-				"meta.property-value.css",
+				"meta.property-value.css", // grid-area: footer;
 			],
 			"settings": {
 				"foreground": "#90D794",
@@ -300,6 +300,7 @@
 				"string.template",
 				"string.regexp",
 				"variable.css",
+				"variable.argument.css",
 				"variable.scss",
 				"constant.other.character-class.range.regexp",
 				"punctuation.definition.keyword",
