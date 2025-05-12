@@ -13,7 +13,7 @@ A minimalist color palette featuring cool tones and medium contrast for a calm a
 ### HTML / CSS
 ![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
 
-**Tags**: *#nord #flow #concentration #focus #zen #simple #beautiful*
+**Tags**: *#nord #flow #concentration #focus #zen #simple #serenity #beautiful*
 
 
 ## More contrast

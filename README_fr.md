@@ -14,7 +14,7 @@ Une palette de couleurs minimaliste aux tons froids avec un contraste moyen, pou
 ![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
 
 
-**Tags**: *#nord #flow #concentration #focus #zen #simple #beautiful*
+**Tags**: *#nord #flow #concentration #focus #zen #simple #sérénité #élégant*
 
 
 ## Plus de contraste
