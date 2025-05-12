@@ -59,3 +59,7 @@ Modified README:
 ## 1.2.1 - 2025-05-11
 - Changed: params color whiter, less confused with props, keys etc.
 - Changed: custom props also colored like other props, keys etc (light blue).
+
+## 1.2.2 - 2025-05-11
+- Add: value color to grid-area name.
+- Add: apply --var color to var(--prop)
