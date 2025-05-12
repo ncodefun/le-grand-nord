@@ -255,7 +255,6 @@
 				"variable.parameter",
 				"variable.other.property.js", // this._prop
 				"variable.other.object.property",
-				// removed
 			],
 			"settings": {
 				"foreground": "#b3e0d1",
