@@ -288,6 +288,7 @@
 				"string",
 				"constant",
 				"source.css support.constant",
+				"meta.property-value.css",
 			],
 			"settings": {
 				"foreground": "#90D794",
