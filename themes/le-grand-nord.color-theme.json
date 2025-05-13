@@ -116,6 +116,7 @@
 	"semanticTokenColors": {
 		"property" : "#B3E0D1",
 		"variable.defaultLibrary": "#6DB1A9",
+		"class.defaultLibrary": "#aadeb3",
 		"parameter": { 
 			"foreground": "#ccded9", 
 			"italic": true 

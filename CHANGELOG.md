@@ -74,3 +74,6 @@ Modified README:
   
 ## 1.3.1 - 2025-05-13
 - Add python params declaration match js (param uses impossible to target).
+
+## 1.3.2 - 2025-05-13
+- Add class color to class.defaultLibrary for builtin classes (like Error).
