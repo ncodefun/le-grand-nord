@@ -13,6 +13,9 @@ Une palette de couleurs minimaliste aux tons froids avec un contraste moyen, pou
 ### HTML / CSS
 ![Le Grand Nord Theme - HTML / CSS](screenshots/LGN--HTML-CSS.png)
 
+### Python
+![Le Grand Nord Theme - Python](screenshots/LGN--PY.png)
+
 
 
 ## Le Grand Nord – Higher Contrast
@@ -24,6 +27,9 @@ Ce thème a un arrière-plan légèrement plus sombre et une ponctuation plus cl
 
 ### HTML / CSS
 ![Le Grand Nord – Higher Contrast – HTML/CSS](screenshots/LGN-HC--HTML-CSS.png)
+
+### Python
+![Le Grand Nord – Higher Contrast – Python](screenshots/LGN-HC--PY.png)
 
 
 
