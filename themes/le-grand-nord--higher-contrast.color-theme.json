@@ -191,6 +191,16 @@
 			}
 		},
 		{
+			// (CLOUD faded)
+			"name": "MIST – Angled brackets (</>)",
+			"scope": [	
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#6e8e89cc",
+			}
+		},
+		{
 			"name": "RAIN – Elements", /* punct. accessor + CSS ids and classes" */
 			"scope": [
 				"entity.name.tag",
