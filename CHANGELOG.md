@@ -71,3 +71,6 @@ Modified README:
 - Add: a new higher contrast theme variation with:
   - Darker background.
   - Brighter punctuation.
+  
+## 1.3.1 - 2025-05-13
+- Add python params declaration match js (param uses impossible to target).
