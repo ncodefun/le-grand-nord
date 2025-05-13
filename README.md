@@ -18,15 +18,17 @@ A minimalist color palette featuring cool tones and medium contrast for a calm a
 
 ## More contrast
 
-If you want better contrast, just add this to your user settings (JSON):
+If you want more contrast, you can either:
 
-```jsonc
-"workbench.colorCustomizations": {
-	// darker:
-	"editor.background": "#212525",
-	// even darker:
-	// "editor.background": "#1d2121",
-}
+1. Select the theme variation – Le Grand Nord – Higher Contrast, you'll get a slightly darker background and brighter punctuation.
+2. Add this to your user settings (JSON):
+	```jsonc
+	"workbench.colorCustomizations": {
+		// darker:
+		"editor.background": "#212525",
+		// even darker:
+		// "editor.background": "#1d2121",
+	}
 ```
 
 ## Preview with a darker background

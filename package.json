@@ -2,7 +2,7 @@
 	"name": "le-grand-nord",
 	"displayName": "Le Grand Nord",
 	"description": "A minimalist color palette, featuring cool tones and medium contrast for a consistent and calm aesthetic. | Une palette de couleur minimaliste aux tons froids, avec un contraste moyen pour une esthétique consistente et calme. | #nord #flow #concentration #focus #zen #simple #serenity #beautiful",
-	"version": "1.2.3",
+	"version": "1.3.0",
 	"publisher": "ncodefun",
 	"engines": {
 		"vscode": "^1.19.0"
@@ -16,6 +16,11 @@
 				"label": "Le Grand Nord",
 				"uiTheme": "vs-dark",
 				"path": "./themes/le-grand-nord.color-theme.json"
+			},
+			{
+				"label": "Le Grand Nord – Higher Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/le-grand-nord--higher-contrast.color-theme.json"
 			}
 		]
 	},

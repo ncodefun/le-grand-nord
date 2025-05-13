@@ -45,6 +45,7 @@ test-app {
     padding: 1rem;
   }
 }
+
 @keyframes spin {
   0% {
     color: palegreen;

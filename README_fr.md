@@ -19,7 +19,10 @@ Une palette de couleurs minimaliste aux tons froids avec un contraste moyen, pou
 
 ## Plus de contraste
 
-Pour obtenir un meilleur contraste, ajoutez ceci dans vos `user settings (JSON)` :
+Pour plus de contraste, vous pouvez soit:
+
+1. Choisissez le thème `Le Grand Nord – Higher Contrast`, pour une arrière-plan plus foncé et un punctuation plus claire.
+2. Ajoutez ceci dans `user settings (JSON)`:
 
 ```jsonc
 "workbench.colorCustomizations": {

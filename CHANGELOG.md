@@ -66,3 +66,8 @@ Modified README:
 
 ## 1.2.3 - 2025-05-12
 - Add: colored property (this._prop) in tagged template.
+
+## 1.3.0 - 2025-05-12
+- Add: a new higher contrast theme variation with:
+  - Darker background.
+  - Brighter punctuation.
