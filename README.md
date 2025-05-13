@@ -1,57 +1,46 @@
 # Le Grand Nord – A Dark VS Code Theme
 
-### [👉 Français](README_fr.md)
+[👉 Français](README_fr.md)
 
 A minimalist color palette featuring cool tones and medium contrast for a calm and consistent aesthetic.
 
 
-## Preview
+## Le Grand Nord
 
 ### Javascript
-![Le Grand Nord Theme - JAVASCRIPT](screenshots/javascript.png)
+![Le Grand Nord Theme - JAVASCRIPT](screenshots/LGN--JS.png)
 
 ### HTML / CSS
-![Le Grand Nord Theme - HTML / CSS](screenshots/html-css.png)
-
-**Tags**: *#nord #flow #concentration #focus #zen #simple #serenity #beautiful*
+![Le Grand Nord Theme - HTML / CSS](screenshots/LGN--HTML-CSS.png)
 
 
-## More contrast
 
-If you want more contrast, you can either:
+## Le Grand Nord – Higher Contrast
 
-1. Select the theme variation – Le Grand Nord – Higher Contrast, you'll get a slightly darker background and brighter punctuation.
-2. Add this to your user settings (JSON):
-	```jsonc
-	"workbench.colorCustomizations": {
-		// darker:
-		"editor.background": "#212525",
-		// even darker:
-		// "editor.background": "#1d2121",
-	}
-```
+This theme provides a slightly darker background and clearer punctuation.
 
-## Preview with a darker background
+### Javascript
+![Le Grand Nord – Higher Contrast – JS](screenshots/LGN-HC--JS.png)
 
 ### HTML / CSS
-![Le Grand Nord Theme w/ Darker BG - HTML / CSS](screenshots/darker-html-css.png)
+![Le Grand Nord – Higher Contrast – HTML/CSS](screenshots/LGN-HC--HTML-CSS.png)
 
-### Python
-![Le Grand Nord Theme w/ Darker BG - PYTHON](screenshots/darker-python.png)
 
 
 ## Color palette
 
-![Le Grand Nord Theme - color palette](screenshots/named-color-palette.png)
+<!-- ![Le Grand Nord Theme - color palette](screenshots/LGN--palette.png) -->
 
-![Le Grand Nord Theme - color palette](screenshots/named-color-palette--text.png)
+![Le Grand Nord Theme - color palette](screenshots/LGN--palette-text.png)
 
 
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements, feel free to open an issue.
+---
 
 If you enjoy using this theme, please consider leaving a rating on the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ncodefun.le-grand-nord). Your feedback is greatly appreciated! 💖
+
+---
+
+**Tags**: *#nord #flow #concentration #focus #zen #simple #serenity #beautiful*
 
 
 ## License
