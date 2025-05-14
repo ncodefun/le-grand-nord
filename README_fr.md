@@ -33,11 +33,11 @@ Ce thème a un arrière-plan légèrement plus sombre et une ponctuation plus cl
 
 
 
-## Palette de couleurs
+<!-- ## Palette de couleurs
 
 ![Le Grand Nord Theme - color palette](screenshots/LGN--palette-text.png)
 
-![Le Grand Nord Theme - color palette](screenshots/LGN--palette.png)
+![Le Grand Nord Theme - color palette](screenshots/LGN--palette.png) -->
 
 
 ---

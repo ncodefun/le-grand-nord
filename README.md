@@ -33,11 +33,11 @@ This theme provides a slightly darker background and clearer punctuation.
 
 
 
-## Color palette
+<!-- ## Color palette
 
 ![Le Grand Nord Theme - color palette text](screenshots/LGN--palette-text.png)
 
-![Le Grand Nord Theme - color palette bg](screenshots/LGN--palette.png)
+![Le Grand Nord Theme - color palette bg](screenshots/LGN--palette.png) -->
 
 
 ---
