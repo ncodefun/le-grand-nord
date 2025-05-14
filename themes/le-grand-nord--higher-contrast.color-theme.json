@@ -309,6 +309,7 @@
 				"constant",
 				"source.css support.constant",
 				"meta.property-value.css", // grid-area: footer;
+				"string.js.taggedTemplate source.css" // override source.css
 			],
 			"settings": {
 				"foreground": "#90D794",
@@ -319,9 +320,6 @@
 			"scope": [
 				"string.template",
 				"string.regexp",
-				"variable.css",
-				"variable.argument.css",
-				"variable.scss",
 				"constant.other.character-class.range.regexp",
 				"punctuation.definition.keyword",
 				"source.css keyword.control",
@@ -333,7 +331,19 @@
 			}
 		},
 		{
-			"name": "HALO faded – JS string template -> faded quotes",
+			"name": "HALO faded | ITALIC – CSS vars",
+			"scope": [
+				"variable.css",
+				"variable.argument.css",
+				"variable.scss",
+			],
+			"settings": {
+				"foreground": "#c3eab6ee", 
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "HALO faded 2 – JS string template -> faded quotes",
 			"scope": [
 				"string.template.js punctuation.definition.string.template",
 			],

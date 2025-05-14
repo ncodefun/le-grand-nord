@@ -300,19 +300,17 @@
 				"constant",
 				"source.css support.constant",
 				"meta.property-value.css", // grid-area: footer;
+				"string.js.taggedTemplate source.css" // override source.css
 			],
 			"settings": {
 				"foreground": "#90D794",
 			}
 		},
 		{
-			"name": "HALO | ITALIC – JS Str template, RegExp; CSS vars, @media",
+			"name": "HALO | ITALIC – JS Str template, RegExp; CSS @media",
 			"scope": [
 				"string.template",
 				"string.regexp",
-				"variable.css",
-				"variable.argument.css",
-				"variable.scss",
 				"constant.other.character-class.range.regexp",
 				"punctuation.definition.keyword",
 				"source.css keyword.control",
@@ -320,6 +318,18 @@
 			],
 			"settings": {
 				"foreground": "#c6eab6", 
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "HALO ~muted | ITALIC – CSS vars",
+			"scope": [
+				"variable.css",
+				"variable.argument.css",
+				"variable.scss",
+			],
+			"settings": {
+				"foreground": "#c3eab6ee", 
 				"fontStyle": "italic"
 			}
 		},

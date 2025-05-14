@@ -77,3 +77,7 @@ Modified README:
 
 ## 1.3.2 - 2025-05-13
 - Add class color to class.defaultLibrary for builtin classes (like Error).
+
+## 1.3.3 - 2025-05-13
+- Fix: style attribite value not colored as value.
+- CSS vars are now a bit less .
