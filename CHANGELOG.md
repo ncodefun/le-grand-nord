@@ -81,3 +81,7 @@ Modified README:
 ## 1.3.3 - 2025-05-13
 - Fix: style attribite value not colored as value.
 - CSS vars are now a bit less .
+
+## 1.4.0 - 2025-05-16
+- Fix: find match highlight making dark text impossible to read.
+- Change: broken font liguatures (Fira Code) inside template expressions: removed italic style from template strings.

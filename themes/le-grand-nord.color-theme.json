@@ -44,8 +44,8 @@
 		"dropdown.foreground": "#cbfff9",
 		"dropdown.listBackground": "#2a3232",
 		"editor.foldBackground":"#ffffff03",
-		"editor.findMatchBackground": "#a1bd00aa",
-		"editor.findMatchHighlightBackground": "#babd0050",
+		"editor.findMatchBackground": "#a1bd0018",
+		"editor.findMatchHighlightBackground": "#babd0018",
 		"editor.foreground": "#eeeeee",
 		"editor.inactiveSelectionBackground": "#6867417e",
 		"editor.lineHighlightBackground": "#86fff111",
@@ -380,7 +380,7 @@
 			"name": "ITALIC – Strings, string templates, func. parameter, :pseudo-class",
 			"scope": [
 				"string",
-				"string.template",
+				// "string.template",
 				"variable.parameter",
 				"entity.other.attribute-name.pseudo-class.css",
 			],
@@ -391,7 +391,9 @@
 		{
 			"name": "NOT ITALIC – TAGGED string templates (lit-html)",
 			"scope": [
+				"string.template",
 				"string.js.taggedTemplate",
+				"string.js.taggedTemplate string",
 			],
 			"settings": {
 				"fontStyle": ""
