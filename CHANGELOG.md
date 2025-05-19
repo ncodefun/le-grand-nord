@@ -88,3 +88,6 @@ Modified README:
 
 ## 1.5.0 - 2025-05-19
 - Change: regexp coloring is now much more readable.
+
+## 1.5.1 - 2025-05-19
+- Updated descriptions.
