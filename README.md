@@ -10,6 +10,9 @@ A minimalist color palette featuring cool tones and medium contrast for a calm a
 ### Javascript
 ![Le Grand Nord Theme - JAVASCRIPT](screenshots/LGN--JS.png)
 
+> [!NOTE]
+> Screenshot made with the VS Code extension `lit-html` installed to provide proper syntax highlighting inside tagged templates ( <code>html\`&lt;div>…&lt;/div>\`</code>)
+
 ### HTML / CSS
 ![Le Grand Nord Theme - HTML / CSS](screenshots/LGN--HTML-CSS.png)
 
