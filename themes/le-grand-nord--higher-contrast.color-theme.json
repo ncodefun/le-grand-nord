@@ -106,10 +106,8 @@
 		"editorGroupHeader.border": "#293333",
 		"editorGroup.border": "#3c4344",
 		"tab.activeForeground": "#7cc7bf",		
-		"tab.inactiveForeground": "#6db1a9aa",		
-		"tab.border": "#6db1a922",	
-		
-
+		"tab.inactiveForeground": "#6db1a9aa",
+		"tab.border": "#6db1a922",
 	},
 	
 	"semanticHighlighting": true,
@@ -135,6 +133,7 @@
 				"meta.function.parameters.python",
 				"meta.function-call.arguments.python",
 				"variable.parameter",
+				"string.regexp constant.other.character-class.set.regexp",
 			],
 			"settings": {
 				"foreground": "#ccded9",
@@ -153,8 +152,6 @@
 				"meta.template.expression.js",
 				"string.js.taggedTemplate meta.embedded.block.html",
 				"string.regexp.js",
-				"string.regexp constant.other.character-class.set.regexp",
-				"string.regexp.js constant.other.character-class.set.regexp constant.other.character-class.regexp",
 				"source.python meta.fstring.python",
 			],
 			"settings": {
@@ -184,6 +181,7 @@
 			"scope": [
 				"storage",
 				"entity.other.attribute-name.pseudo-class.css",
+				"punctuation.definition.character-class.regexp", // [a-zA-Z]
 			],
 			"settings": {
 				"foreground": "#6e8e89"
@@ -223,6 +221,7 @@
 				"punctuation.separator.key-value.js",
 				"keyword.operator.type.annotation.ts",
 				"source.css",
+				"string.regexp.js constant",
 			],
 			"settings":{
 				"foreground": "#7da9a5",
@@ -245,7 +244,7 @@
 			"name": "DEEPSKY – Operators, Math signs",
 			"scope": [
 				"keyword.operator",
-				"keyword.control.anchor.regexp",
+				"keyword.operator.quantifier.regexp", // {2,}
 			],
 			"settings": {
 				"foreground": "#82cec5"
@@ -270,7 +269,6 @@
 				"meta.object-literal.key",
 				"meta.object-literal.key string",
 				"entity.other.attribute-name",
-				"keyword.operator.quantifier.regexp",
 				"support.type.property-name",
 				"meta.function-call.arguments.pythonz",
 				"support.variable.property",
@@ -318,11 +316,9 @@
 			}
 		},
 		{
-			"name": "HALO | ITALIC – JS Str template, RegExp; CSS vars, @media",
+			"name": "HALO | ITALIC – JS Str template; CSS @media",
 			"scope": [
 				"string.template",
-				"string.regexp",
-				"constant.other.character-class.range.regexp",
 				"punctuation.definition.keyword",
 				"source.css keyword.control",
 				"entity.other.keyframe-offset.percentage.css",
@@ -333,11 +329,16 @@
 			}
 		},
 		{
-			"name": "HALO faded | ITALIC – CSS vars",
+			"name": "HALO ~muted | ITALIC – RegExp; CSS vars",
 			"scope": [
 				"variable.css",
 				"variable.argument.css",
 				"variable.scss",
+				"string.regexp",
+				"string.regexp.js punctuation",
+				"string.regexp.js keyword.other.js",
+				"keyword.control.anchor.regexp",
+				"constant.other.character-class.range.regexp",
 			],
 			"settings": {
 				"foreground": "#c3eab6ee", 
@@ -345,7 +346,7 @@
 			}
 		},
 		{
-			"name": "HALO faded 2 – JS string template -> faded quotes",
+			"name": "HALO faded – JS string template -> faded quotes",
 			"scope": [
 				"string.template.js punctuation.definition.string.template",
 			],
@@ -361,6 +362,7 @@
 				"entity.name.label",
 				"storage.modifier.async.js",
 				"keyword.generator.asterisk.js",
+				"string.regexp.js punctuation.definition.group" // (?:…)
 			],
 			"settings": {
 				"foreground": "#7d8281",

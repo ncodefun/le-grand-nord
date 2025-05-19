@@ -85,3 +85,6 @@ Modified README:
 ## 1.4.0 - 2025-05-16
 - Fix: find match highlight making dark text impossible to read.
 - Change: broken font liguatures (Fira Code) inside template expressions: removed italic style from template strings.
+
+## 1.5.0 - 2025-05-19
+- Change: regexp coloring is now much more readable.
