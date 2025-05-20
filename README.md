@@ -1,11 +1,11 @@
 # Le Grand Nord – VS Code color theme
 
-[👉 Français](README_fr.md)
+[🌍 Français](README_fr.md)
 
 
 **For a clear vision**
 
-Le Grand Nord is a beautiful, minimalist theme with medium contrast designed for visual ease and focus. Inspired and inspiring with its cool Nordic tones and simple palette, this theme offers a serene creative space to immerse yourself in.
+Le Grand Nord is a beautiful, minimalist theme with medium contrast, designed for visual ease and focus. Inspired and inspiring with its cool Nordic tones and simple palette, this theme offers a serene, distraction-free space to immerse yourself in — like a Zen garden where creativity flows naturally. 🌱
 
 
 ## Le Grand Nord

@@ -1,10 +1,10 @@
 # Le Grand Nord – Un thème pour VS Code
 
-[👉 English](README.md)
+[🌍 English](README.md)
 
-**Pour une vision claire.**
+**Pour une vision claire, sans distraction.**
 
-Le Grand Nord est un thème magnifique et minimaliste avec un contraste modéré, pensé pour le confort visuel et la concentration. Inspiré et inspirant avec ses tons nordiques et une palette simple, ce thème offre un espace créatif serein et sans distraction.
+Le Grand Nord est un thème magnifique et minimaliste, avec un contraste modéré, pensé pour le confort visuel et la concentration. Inspiré et inspirant, avec ses tons nordiques et une palette simple, ce thème offre un espace serein et immersif — tel un jardin zen où la créativité coule naturellement. 🌱
 
 
 ## Le Grand Nord
