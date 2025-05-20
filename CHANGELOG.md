@@ -94,3 +94,6 @@ Modified README:
 
 ## 1.5.2 - 2025-05-20
 - Updated descriptions.
+
+## 1.5.3 - 2025-05-20
+- Simplified and unified all descriptions.

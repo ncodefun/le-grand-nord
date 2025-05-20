@@ -1,8 +1,8 @@
 {
 	"name": "le-grand-nord",
 	"displayName": "Le Grand Nord",
-	"description": "For a clear vision – Le Grand Nord is a beautiful, minimalist theme with medium contrast designed for visual ease and focus. Inspired and inspiring with its cool Nordic tones and simple palette, this theme offers a serene creative space to immerse yourself in.",
-	"version": "1.5.2",
+	"description": "For a clear, undistracted vision – Le Grand Nord is a beautiful, minimalist theme designed for visual ease and focus. Inspired and inspiring with its cool Nordic tones and simple palette, this theme offers a serene space to immerse yourself in — like a Zen garden where creativity flows naturally. 🌱",
+	"version": "1.5.3",
 	"publisher": "ncodefun",
 	"engines": {
 		"vscode": "^1.19.0"
