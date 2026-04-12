@@ -1,8 +1,8 @@
 {
 	"name": "le-grand-nord",
 	"displayName": "Le Grand Nord",
-	"description": "For a clear, undistracted vision – Le Grand Nord is a beautiful, minimalist theme designed for visual ease and focus. Inspired and inspiring with its cool Nordic tones and simple palette, this theme offers a serene space to immerse yourself in — like a Zen garden where creativity flows naturally. 🌱",
-	"version": "1.5.3",
+	"description": "For a clear, undistracted vision – Le Grand Nord is a beautiful, minimalist theme designed for visual ease and focus. Inspired and inspiring with cool Nordic tones and a simple palette, this is your Zen space for noise-free coding. 🌱",
+	"version": "1.6.0",
 	"publisher": "ncodefun",
 	"engines": {
 		"vscode": "^1.19.0"
@@ -15,12 +15,12 @@
 			{
 				"label": "Le Grand Nord",
 				"uiTheme": "vs-dark",
-				"path": "./themes/le-grand-nord.color-theme.json"
+				"path": "./themes/le-grand-nord--higher-contrast.color-theme.json"
 			},
 			{
-				"label": "Le Grand Nord – Higher Contrast",
+				"label": "Le Grand Nord – Soft",
 				"uiTheme": "vs-dark",
-				"path": "./themes/le-grand-nord--higher-contrast.color-theme.json"
+				"path": "./themes/le-grand-nord--soft.color-theme.json"
 			}
 		]
 	},
