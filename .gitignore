@@ -3,6 +3,7 @@ node_modules/
 .vscodeignore
 *.vsix
 *.log
+*.pdn
 .env
 **/*syntax*/
 z

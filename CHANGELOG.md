@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.7.0 – 2026-09-12
+- Added a new variant theme: Le Grand Nord – Graphite; same syntax colors but the whole UI is dark gray instead of dark blue.
+
 ## 1.6.0 – 2026-04-11
 - The High Contrast variant is now the default — if your theme reverted, just reselect it.
 - More visible selected editor tab.

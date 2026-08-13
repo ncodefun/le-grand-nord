@@ -5,10 +5,19 @@
 
 **For a clear, undistracted vision**
 
-Le Grand Nord is a beautiful, minimalist theme designed for visual ease and focus. Inspired and inspiring with cool Nordic tones and a simple palette, this is your Zen space for noise-free coding. 🌱"
+Le Grand Nord is a beautiful, minimalist theme designed for visual ease and focus. Inspired and inspiring with cool Nordic tones and a simple palette, this is your Zen space for noise-free coding… 🌱"
 
 
 ## Le Grand Nord
+
+### New in v1.7.0 → Le Grand Nord - Graphite
+
+A new theme variant with a gray UI – keeps the same syntax colors.
+
+![Le Grand Nord – Graphite – JS](screenshots/graphite-with-bg.png)
+
+
+---
 
 ### Javascript
 ![Le Grand Nord – Higher Contrast – JS](screenshots/LGN-HC--JS.png)

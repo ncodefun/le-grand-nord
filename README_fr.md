@@ -4,10 +4,17 @@
 
 **Pour une vision claire, sans distraction.**
 
-Le Grand Nord est un thème sobre et minimaliste, pensé pour le confort visuel et la concentration. Inspiré et inspirant avec ses tons nordiques et une palette simple, c'est votre espace Zen pour coder en toute sérénité. 🌱
+Le Grand Nord est un thème sobre et minimaliste, pensé pour le confort visuel et la concentration. Inspiré et inspirant avec ses tons nordiques et une palette simple, c'est votre espace Zen pour coder en toute sérénité… 🌱
 
 
 ## Le Grand Nord
+
+### Nouveau (v1.7.0) → Le Grand Nord - Graphite
+
+Une nouvelle variation avec l'interface en tons de gris foncé, plutôt que bleu foncé.
+
+![Le Grand Nord – Graphite – JS](screenshots/graphite-with-bg.png)
+
 
 ### Javascript
 ![Le Grand Nord – Higher Contrast – JS](screenshots/LGN-HC--JS.png)
