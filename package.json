@@ -2,7 +2,7 @@
 	"name": "le-grand-nord",
 	"displayName": "Le Grand Nord",
 	"description": "For a clear, undistracted vision – Le Grand Nord is a beautiful, minimalist theme designed for visual ease and focus. Inspired and inspiring with cool Nordic tones and a simple palette, this is your Zen space for noise-free coding… 🌱",
-	"version": "1.7.1",
+	"version": "1.7.2",
 	"publisher": "ncodefun",
 	"engines": {
 		"vscode": "^1.19.0"
